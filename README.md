@@ -3,35 +3,8 @@
 
 Projeto desenvolvido para Evoluir
 
-### Estrutura de arquivos
 
-- README.md
-- index.html
-- /src
-  - /img
-  - /css
-    - style.css
-  - /js
-    - script.js
-  - pages
-    - jogo.html
-
-### Fonte
-
-- 'Roboto', sans-serif;
-
-### Cores
-
-- Branco: #ffffff;
-- Gelo: #F4F4F4;
-- Amarelo: #FBD000;
-- Azul: #049CD8;
-- Verde: #43B047;
-- Vermelho: #E52521;
-- Preto: #000000;
-- Cinza Escuro: #1E1E1E;
-
-## LinkedIn das Instrutoras
+## LinkedIn
 - [Jhony Luz](https://www.linkedin.com/in/jhony-luz-720b73211/)
 
 ## Layout
