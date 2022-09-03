@@ -20,14 +20,13 @@
 
  body {
    font-family: 'Nunito', sans-serif;
-   height: 100vh;
+   height: 98vh;
  }
 
  body {
    background-image: url(../img/bg.png);
    background-repeat: no-repeat;
    background-size: cover;
-   font-family: 'Roboto', sans-serif;
    justify-content: center;
    align-items: center;
  }
@@ -36,7 +35,12 @@
    display: flex;
  }
 
- main {
+ .flex__around {
+   justify-content: space-around;
+ }
+
+
+ .fundo__branco {
    width: 80%;
    background: rgba(244, 244, 244, 0.5);
    border-radius: 10px;
@@ -65,10 +69,6 @@
    font-family: pixel;
  }
 
- .logo__around {
-   justify-content: space-around;
- }
-
  .logo__texto {
    font-family: Nunito, sans-serif;
    font-weight: 700;
@@ -94,5 +94,53 @@
    margin-top: 24%;
    font-family: negrito;
    /* font-weight: 700; */
+   cursor: pointer; 
+  }
+
+
+ /* Termina o css da pag. index */
+
+ .placar {
+  background-image: url(../img/Pipe.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 828px;
+  Width: 100%;
+  height: 22%;
+  font-family: Nunito;
+  font-weight: 700;
+  color: #F4F4F4;
+  font-size: 40px;
+  line-height: 55px;
+  align-items: center;
+  margin-top: 13px;
+ }
+
+ .placar__texto{
+  width: 54%;
+ }
+
+ .placar__btn {
+   background: #E52521;
+   border: 3px solid #F4F4F4;
+   border-radius: 10px;
+   box-sizing: border-box;
+   width: 200px;
+   height: 52px;
+   font-family: Nunito;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 49px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-left: 43vh;
    cursor: pointer;
+ }
+
+ .cartas{
+  display: grid;
+  grid-template-columns: 330px 330px 330px 330px;
+  width: 80%;
+  grid-row-gap: 64px;
+  margin: 36px auto;
  }
