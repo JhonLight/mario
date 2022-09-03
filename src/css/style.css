@@ -1,29 +1,98 @@
- body{
-  height: 100vh;
-}
+ @font-face {
+   font-family: pixel;
+   src: url(../font/Outer\ Space.ttf);
+ }
 
-body{
-  background-image: url(../img/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
-  justify-content: center;
-  align-items: center;
-}
+ @font-face {
+   font-family: regular;
+   src: url(../font/nunito.semibold.ttf);
+ }
 
-.flex{
-  display: flex;
-}
+ @font-face {
+   font-family: negrito;
+   src: url(../font/nunito.bold.ttf);
+ }
 
-main{
-  width: 80%;
-  background: rgba(244, 244, 244, 0.5);
-  border-radius: 10px;
-  padding: 10.1vh;
-}
+ @font-face {
+   font-family: blackx;
+   src: url(../font/nunito.black.ttf);
+ }
 
-.logo{
-  flex-direction: column;
-  align-items: center;
-  gap: 45px;
-}
+ body {
+   font-family: 'Nunito', sans-serif;
+   height: 100vh;
+ }
+
+ body {
+   background-image: url(../img/bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .flex {
+   display: flex;
+ }
+
+ main {
+   width: 80%;
+   background: rgba(244, 244, 244, 0.5);
+   border-radius: 10px;
+   padding: 10.1vh;
+ }
+
+ .logo {
+   flex-direction: column;
+   align-items: center;
+   gap: 65px;
+ }
+
+ .logo__mario {
+   width: 25em;
+   height: 11.48375em;
+ }
+
+ .logo__nome {
+   font-family: pixel;
+   color: blue;
+   font-weight: 600;
+   font-size: 5.3vh;
+ }
+
+ .logo__funcao {
+   font-family: pixel;
+ }
+
+ .logo__around {
+   justify-content: space-around;
+ }
+
+ .logo__texto {
+   font-family: Nunito, sans-serif;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px;
+   text-align: center;
+
+ }
+
+ .logo__btn {
+   background: #049CD8;
+   border: 3px solid #F4F4F4;
+   border-radius: 10px;
+   box-sizing: border-box;
+   width: 400px;
+   height: 104px;
+   text-align: center;
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 87px;
+   color: #FFFFFF;
+   border: none;
+   margin-top: 24%;
+   font-family: negrito;
+   /* font-weight: 700; */
+   cursor: pointer;
+ }
