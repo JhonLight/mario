@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./src/css/reset.css">
-  <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    
     <title>Jogo da Memória</title>
   </head>
   <body>
@@ -20,15 +21,10 @@
       <button class="placar__btn">Encerrar</butto>
     </header>
 
-    <main class="cartas">
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
-      <img src="./src/img/QuestionBlock.png" alt="Carta de memória" />
+    <main class="cartas" id="main" cartas-memoria>
+   <!--    <img cartas-memoria src="./src/img/QuestionBlock.png" alt="Carta de memória" /> -->
     </main>
+    <script src="/src/js/dataBase--card.js"></script>
+    <script src="/src/js/main.js"></script>
   </body>
 </html>
