@@ -38,9 +38,10 @@ function criaCartas() {
         click01 = cardClicado
       }else{
         click02 = cardClicado
+        comparaClick()
       }
 
-      comparaClick()
+      
     });
 
     main.appendChild(carta);
@@ -58,14 +59,19 @@ function misturaCartas(arr) {
 
 
 function comparaClick() {
-  if (click01.id == click02.id){
+  if (click01.id == click02.id){ /* comparo os clicks armazenados */
     console.log('par')
+
+    click01 = null
+    click02 = null    
   }else{
     console.log('nao par')
 
     setTimeout(() => {
       click01.src = "./src/img/QuestionBlock.png"
       click02.src = "./src/img/QuestionBlock.png"  
+      click01 = null
+      click02 = null
     }, 1000);
     
   }
