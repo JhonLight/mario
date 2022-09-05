@@ -15,10 +15,19 @@ function criaCartas() {
     let carta = document.createElement("img");
     carta.src = "./src/img/QuestionBlock.png";
 
-    carta.id = arrDuplicado[i].id;
+    carta.id = arrDuplicado[i].id; /* Atribundo um id a cada elemento do id */
 
     carta.addEventListener("click", (event) => {
-      console.log(event.target);
+      let idClicado =
+        event.target.id; /* Buscando pelo id do elemento clicado  */
+
+      let personagemClicado = personagens.find(
+        /* find é um verificador de array  */
+        (elemento) => elemento.id == idClicado
+      ); /* Conparando se o id clicado é igual ao id do element */
+
+      const cardClicado = event.target;
+      cardClicado.src = personagemClicado.img;
     });
 
     main.appendChild(carta);
