@@ -4,6 +4,10 @@ criaCartas();
 
 function criaCartas() {
 
+  const arrDuplicado = [...personagens, ...personagens] /* Duplicando arry espred operaitor*/
+  const cartasEmbaralhadas = misturaCartas(arrDuplicado);  /* Array de personagengen */
+  console.log(arrDuplicado)
+
   for (let i = 0; i < personagens.length; i++) {
     let cartaA = document.createElement("img");
     cartaA.src = "./src/img/QuestionBlock.png";
