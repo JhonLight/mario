@@ -1,28 +1,33 @@
-const main = document.getElementById('main')
+const main = document.getElementById("main");
 
 criaCartas();
 
 function criaCartas() {
+  const arrDuplicado = [
+    ...personagens,
+    ...personagens,
+  ]; /* Duplicando array spread operator*/
 
-  const arrDuplicado = [...personagens, ...personagens] /* Duplicando arry espred operaitor*/
-  const cartasEmbaralhadas = misturaCartas(arrDuplicado);  /* Array de personagengen */
-  console.log(arrDuplicado)
+  const cartasEmbaralhadas =
+    misturaCartas(arrDuplicado); /* Array de personagens */
 
-  for (let i = 0; i < personagens.length; i++) {
-    let cartaA = document.createElement("img");
-    cartaA.src = "./src/img/QuestionBlock.png";
-    let cartaB = document.createElement("img");
-    cartaB.src = "./src/img/QuestionBlock.png";
+  for (let i = 0; i < cartasEmbaralhadas.length; i++) {
+    let carta = document.createElement("img");
+    carta.src = "./src/img/QuestionBlock.png";
 
+    carta.id = arrDuplicado[i].id;
 
-    main.appendChild(cartaA)
-    main.appendChild(cartaB)
+    carta.addEventListener("click", (event) => {
+      console.log(event.target);
+    });
+
+    main.appendChild(carta);
   }
 }
 
-/* Mistrurando array */
+/* Misturando array */
 function misturaCartas(arr) {
-  for (let indice = arr.length - 1; indice > 0 ; indice--) {
+  for (let indice = arr.length - 1; indice > 0; indice--) {
     const j = Math.floor(Math.random() * (indice + 1));
     [arr[indice], arr[j]] = [arr[j], arr[indice]];
   }
