@@ -1,4 +1,8 @@
-const main = document.getElementById("main");
+const main = document.getElementById("cartas-memoria");
+
+let click01 = null 
+let click02 = null
+
 
 criaCartas();
 
@@ -29,10 +33,18 @@ function criaCartas() {
       const cardClicado = event.target; /* acessando o target do evento */
             cardClicado.src = personagemClicado.img;  /* Atribuindo o src e passando o 
                                                       endereço de img do find clicado */
+      
+      if (click01 == null){
+        click01 = cardClicado
+      }else{
+        click02 = cardClicado
+      }
+
+      comparaClick()
     });
 
     main.appendChild(carta);
-  }
+  } 
 }
 
 /* Misturando array */
@@ -42,4 +54,13 @@ function misturaCartas(arr) {
     [arr[indice], arr[j]] = [arr[j], arr[indice]];
   }
   return arr;
+}
+
+
+function comparaClick() {
+  if (click01.id == click02.id){
+    console.log('par')
+  }else{
+    console.log('nao par')
+  }
 }
