@@ -62,5 +62,11 @@ function comparaClick() {
     console.log('par')
   }else{
     console.log('nao par')
+
+    setTimeout(() => {
+      click01.src = "./src/img/QuestionBlock.png"
+      click02.src = "./src/img/QuestionBlock.png"  
+    }, 1000);
+    
   }
 }
