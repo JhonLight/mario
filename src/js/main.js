@@ -16,3 +16,11 @@ function criaCartas() {
   }
 }
 
+/* Mistrurando array */
+function misturaCartas(arr) {
+  for (let indice = arr.length - 1; indice > 0 ; indice--) {
+    const j = Math.floor(Math.random() * (indice + 1));
+    [arr[indice], arr[j]] = [arr[j], arr[indice]];
+  }
+  return arr;
+}
