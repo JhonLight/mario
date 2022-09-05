@@ -2,7 +2,8 @@ const main = document.getElementById("cartas-memoria");
 
 let click01 = null 
 let click02 = null
-
+let encontrado = 0
+let placar = 0 
 
 criaCartas();
 
@@ -63,7 +64,23 @@ function comparaClick() {
     console.log('par')
 
     click01 = null
-    click02 = null    
+    click02 = null 
+    
+    encontrado++
+
+    if (encontrado == 4) {
+      
+      setTimeout(() => {
+        alert("encontrou todos")  
+      }, 500);
+      
+
+      setTimeout(() => {
+        main.innerHTML = ""
+      criaCartas() 
+      }, 900);
+      
+    }
   }else{
     console.log('nao par')
 
