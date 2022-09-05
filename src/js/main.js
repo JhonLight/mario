@@ -26,8 +26,9 @@ function criaCartas() {
         (elemento) => elemento.id == idClicado
       ); /* Conparando se o id clicado é igual ao id do element */
 
-      const cardClicado = event.target;
-      cardClicado.src = personagemClicado.img;
+      const cardClicado = event.target; /* acessando o target do evento */
+            cardClicado.src = personagemClicado.img;  /* Atribuindo o src e passando o 
+                                                      endereço de img do find clicado */
     });
 
     main.appendChild(carta);

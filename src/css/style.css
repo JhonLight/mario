@@ -144,3 +144,8 @@
   grid-row-gap: 64px;
   margin: 36px auto;
  }
+
+ main img{
+  height: 200px;
+  width: 200px;
+ }
