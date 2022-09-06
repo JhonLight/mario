@@ -4,6 +4,7 @@ let click01 = null
 let click02 = null
 let encontrado = 0
 let placar = 0 
+let pontos = document.getElementById("pontos")
 
 criaCartas();
 
@@ -69,11 +70,10 @@ function comparaClick() {
     encontrado++
 
     if (encontrado == 4) {
+      placar++
+      pontos.innerHTML = placar
       
-      setTimeout(() => {
-        alert("encontrou todos")  
-      }, 500);
-      
+      encontrado = 0
 
       setTimeout(() => {
         main.innerHTML = ""
