@@ -19,7 +19,7 @@
  }
 
  body {
-   font-family: 'Nunito', sans-serif;
+   font-family: regular, sans-serif;
    height: 98vh;
  }
 
@@ -50,7 +50,7 @@
  .logo {
    flex-direction: column;
    align-items: center;
-   gap: 65px;
+   gap:  8.83vh;
  }
 
  .logo__mario {
@@ -70,10 +70,10 @@
  }
 
  .logo__texto {
-   font-family: Nunito, sans-serif;
+   font-family: regular, sans-serif;
    font-weight: 700;
-   font-size: 32px;
-   line-height: 44px;
+   font-size: 4.34vh;
+   line-height: 5.97vh;
    text-align: center;
 
  }
@@ -83,17 +83,16 @@
    border: 3px solid #F4F4F4;
    border-radius: 10px;
    box-sizing: border-box;
-   width: 400px;
-   height: 104px;
+   width: 54.34vh;
+   height: 14.13;
    text-align: center;
    font-weight: 900;
-   font-size: 64px;
-   line-height: 87px;
+   font-size: 8.69vh;
+   line-height: 11.82vh;
    color: #FFFFFF;
    border: none;
    margin-top: 24%;
    font-family: negrito;
-   /* font-weight: 700; */
    cursor: pointer; 
   }
 
@@ -104,16 +103,16 @@
   background-image: url(../img/Pipe.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 828px;
+  background-size: 112.5vh;
   Width: 100%;
   height: 22%;
-  font-family: Nunito;
+  font-family: regular, sans-serif;
   font-weight: 700;
   color: #F4F4F4;
-  font-size: 40px;
-  line-height: 55px;
+  font-size: 5.43vh;
+  line-height: 7.47vh;
   align-items: center;
-  margin-top: 13px;
+  margin-top: 1.76vh;
  }
 
  .placar__texto{
@@ -125,27 +124,28 @@
    border: 3px solid #F4F4F4;
    border-radius: 10px;
    box-sizing: border-box;
-   width: 200px;
-   height: 52px;
-   font-family: Nunito;
+   width: 27.17vh;
+   height: 7vh;
+   font-family: regular;
    font-weight: 400;
-   font-size: 36px;
-   line-height: 49px;
+   font-size: 4.89vh;
+   line-height: 6.65vh;
    text-align: center;
    color: #FFFFFF;
-   margin-left: 43vh;
+   margin-left: 36vh;
    cursor: pointer;
  }
 
  .cartas{
   display: grid;
-  grid-template-columns: 330px 330px 330px 330px;
+  grid-template-columns: 44.83vh 44.83vh 44.83vh 44.83vh;
   width: 80%;
-  grid-row-gap: 64px;
-  margin: 36px auto;
+  grid-row-gap: 8.69vh;
+  margin: 4.89vh auto;
+  justify-content: center;
  }
 
  main img{
-  height: 200px;
-  width: 200px;
+  height: 27.17vh;
+  width: 27.17vh;
  }

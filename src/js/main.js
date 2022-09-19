@@ -1,10 +1,10 @@
 const main = document.getElementById("cartas-memoria");
 
-let click01 = null 
-let click02 = null
-let encontrado = 0
-let placar = 0 
-let pontos = document.getElementById("pontos")
+let click01 = null;
+let click02 = null;
+let encontrado = 0;
+let placar = 0;
+let pontos = document.getElementById("pontos");
 
 criaCartas();
 
@@ -33,21 +33,19 @@ function criaCartas() {
       ); /* Conparando se o id clicado é igual ao id do element */
 
       const cardClicado = event.target; /* acessando o target do evento */
-            cardClicado.src = personagemClicado.img;  /* Atribuindo o src e passando o 
-                                                      endereço de img do find clicado */
-      
-      if (click01 == null){
-        click01 = cardClicado
-      }else{
-        click02 = cardClicado
-        comparaClick()
-      }
+      cardClicado.src = personagemClicado.img; /* Atribuindo o src e passando o 
+                                                                  endereço de img do find clicado */
 
-      
+      if (click01 == null) {
+        click01 = cardClicado;
+      } else {
+        click02 = cardClicado;
+        comparaClick();
+      }
     });
 
     main.appendChild(carta);
-  } 
+  }
 }
 
 /* Misturando array */
@@ -59,37 +57,35 @@ function misturaCartas(arr) {
   return arr;
 }
 
-
 function comparaClick() {
-  if (click01.id == click02.id){ /* comparo os clicks armazenados */
-    console.log('par')
+  if (click01.id == click02.id) {
+    /* comparo os clicks armazenados */
+    console.log("par");
 
-    click01 = null
-    click02 = null 
-    
-    encontrado++
+    click01 = null;
+    click02 = null;
+
+    encontrado++;
 
     if (encontrado == 4) {
-      placar++
-      pontos.innerHTML = placar
-      
-      encontrado = 0
+      placar++;
+      pontos.innerHTML = placar;
+
+      encontrado = 0;
 
       setTimeout(() => {
-        main.innerHTML = ""
-      criaCartas() 
+        main.innerHTML = "";
+        criaCartas();
       }, 900);
-      
     }
-  }else{
-    console.log('nao par')
+  } else {
+    console.log("nao par");
 
     setTimeout(() => {
-      click01.src = "./src/img/QuestionBlock.png"
-      click02.src = "./src/img/QuestionBlock.png"  
-      click01 = null
-      click02 = null
+      click01.src = "./src/img/QuestionBlock.png";
+      click02.src = "./src/img/QuestionBlock.png";
+      click01 = null;
+      click02 = null;
     }, 1000);
-    
   }
 }
