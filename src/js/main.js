@@ -1,10 +1,14 @@
 const main = document.getElementById("cartas-memoria");
+const btnEncerrar = document.getElementById("encerrar")
+
 
 let click01 = null;
 let click02 = null;
 let encontrado = 0;
 let placar = 0;
 let pontos = document.getElementById("pontos");
+
+
 
 criaCartas();
 
@@ -89,3 +93,11 @@ function comparaClick() {
     }, 1000);
   }
 }
+
+btnEncerrar.addEventListener("click", () => {
+  window.location.assign("../../index.html")
+})
+
+
+
+console.log(btnJogar)

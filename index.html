@@ -23,10 +23,18 @@
     <section >
       <p class="logo__texto">Encontre todos os pares <br> no menor tempo possível <br> acumulando pontos <br>
         a cada rodada</p>
-        <button class="logo__btn" type="submit">Jogar</button>
+        <button class="logo__btn" id="jogar" type="submit">Jogar</button>
     </section>
 
 
   </main>
+
+  <script>
+    const btnJogar = document.getElementById("jogar")
+
+      btnJogar.addEventListener("click", () => {
+      window.location.assign("../../jogo.html")
+})
+  </script>
 </body>
 </html>
