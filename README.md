@@ -1,8 +1,18 @@
+<h1 align="center">
+    <img alt="" title="#" src=".png" />
+</h1>
 
-## O projeto
+<h1 align="center">
+   <a href="#"> Jogo da memória</a>
+</h1>
 
-Projeto desenvolvido para Evoluir
+<h3 align="center">
+    Projeto desenvolvido para Evoluir
+</h3>
 
+<h4 align="center"> 
+	 Status: Em desenvolvimento
+</h4>
 
 ## LinkedIn
 - [Jhony Luz](https://www.linkedin.com/in/jhony-luz-720b73211/)
@@ -10,6 +20,46 @@ Projeto desenvolvido para Evoluir
 ## Layout
 
 - [Layout](https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1)
+
+
+<p align="center">
+ <a href="#Sobre">Sobre</a> •
+ <a href="#Recursos">Recursos</a> •
+ <a href="#Auto">Autor</a>
+
+
+</p>
+
+
+## Sobre
+
+Um site com tela de etapas
+
+---
+
+## Recursos
+
+- Html
+    - [X] Estrutura pronta
+- Css
+    - [X] Cores e tamanhos definidos
+- Javascript
+    - [X] tela de abertura
+- Design responsivo
+    - [X] para todas as telas
+
+---
+
+## Autor
+
+<a href="#">
+ <img style="border-radius: 50%;" src="https://github.com/JhonLight.png" width="100px;" alt="desenvolvedor web jhony luz"/>
+<h2>Jhony Luz</h2>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Robert-Jose?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertjosé/)](https://www.linkedin.com/in/robertjosé/) 
+[![Gmail Badge](https://img.shields.io/badge/-rjsf06@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:rjsf06@gmail.com)
+
+---
 
 ## Referências
 
