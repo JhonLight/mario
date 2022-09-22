@@ -95,7 +95,7 @@ function comparaClick() {
 }
 
 btnEncerrar.addEventListener("click", () => {
-  window.location.assign("../../index.html")
+  window.location.assign("https://jhonlight.github.io/mario/")
 })
 
 
