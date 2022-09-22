@@ -1,5 +1,6 @@
 <h1 align="center">
-    <img alt="" title="#" src=".png" />
+    <img   height="50%" width="40%" title="#mario jogar" src="./src/img/index_mario_jogar.png" alt="pagina index mario jogar"/>
+    <img   height="50%" width="40%" title="#mario jogar" src="./src/img/mario_cartas.png" alt="pagina jogo da memoria mario"/>
 </h1>
 
 <h1 align="center">
@@ -15,21 +16,18 @@
 </h4>
 
 ## LinkedIn
+
 - [Jhony Luz](https://www.linkedin.com/in/jhony-luz-720b73211/)
 
 ## Layout
 
-- [Layout](https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1)
-
+- [Layout](<https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1>)
 
 <p align="center">
- <a href="#Sobre">Sobre</a> •
- <a href="#Recursos">Recursos</a> •
- <a href="#Auto">Autor</a>
-
-
+    <a href="#Sobre">Sobre</a> •
+    <a href="#Recursos">Recursos</a> •
+    <a href="#Auto">Autor</a>
 </p>
-
 
 ## Sobre
 
@@ -40,13 +38,13 @@ Um site com tela de etapas
 ## Recursos
 
 - Html
-    - [X] Estrutura pronta
+  - [x] Estrutura pronta
 - Css
-    - [X] Cores e tamanhos definidos
+  - [x] Cores e tamanhos definidos
 - Javascript
-    - [X] tela de abertura
+  - [x] tela de abertura
 - Design responsivo
-    - [X] para todas as telas
+  - [x] para todas as telas
 
 ---
 
@@ -56,7 +54,7 @@ Um site com tela de etapas
  <img style="border-radius: 50%;" src="https://github.com/JhonLight.png" width="100px;" alt="desenvolvedor web jhony luz"/>
 <h2>Jhony Luz</h2>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Robert-Jose?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertjosé/)](https://www.linkedin.com/in/robertjosé/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Robert-Jose?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertjosé/)](https://www.linkedin.com/in/robertjosé/)
 [![Gmail Badge](https://img.shields.io/badge/-rjsf06@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:rjsf06@gmail.com)
 
 ---
@@ -70,4 +68,3 @@ Um site com tela de etapas
 - [Paletton](https://paletton.com/)
 - [W3Schools propriedades CSS no DOM](https://www.w3schools.com/jsref/dom_obj_style.asp)
 - [MDN lista de eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
-
