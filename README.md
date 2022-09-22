@@ -20,3 +20,4 @@ Projeto desenvolvido para Evoluir
 - [Paletton](https://paletton.com/)
 - [W3Schools propriedades CSS no DOM](https://www.w3schools.com/jsref/dom_obj_style.asp)
 - [MDN lista de eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
+
