@@ -17,7 +17,7 @@
 
 ## Layout
 
-- [Layout](<https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1>)
+📚 [Layout](<https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1>)
 
 <p align="center">
      •
@@ -27,7 +27,7 @@
 
 ## Sobre
 
-Um site com tela de etapas
+Um site com tela de capa e jogo
 
 ---
 
@@ -36,22 +36,24 @@ Um site com tela de etapas
 - Html
   - [x] Estrutura pronta
 - Css
-  - [x] Cores e tamanhos definidos
+  - [x] Definir fonte e classes de style
 - Javascript
-  - [x] tela de abertura
+  - [x] Botões de navigação
+  - [x] Criar cartas
+  - [x] Mistura Cartas
+  - [x] Identificar click
+  - [x] Validar as combinações
+  - [x] Adicionar pontos
 - Design responsivo
-  - [x] para todas as telas
+  - [x] Para todas as telas
 
 ---
 
 ## Autor
 
-
  <img style="border-radius: 50%;" src="https://github.com/JhonLight.png" width="100px;" alt="desenvolvedor web jhony luz"/>
 
-
-[![Linkedin Badge](https://img.shields.io/badge/-Jhony-Luz?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhony-luz-720b73211/)](https://www.linkedin.com/in/jhony-luz-720b73211/)
-
+[![Linkedin Badge](https://img.shields.io/badge/-JhonyLuz?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhony-luz-720b73211/)](https://www.linkedin.com/in/jhony-luz-720b73211/)
 
 ---
 
