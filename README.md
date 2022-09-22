@@ -15,18 +15,14 @@
 	 Status: Em desenvolvimento
 </h4>
 
-## LinkedIn
-
-- [Jhony Luz](https://www.linkedin.com/in/jhony-luz-720b73211/)
-
 ## Layout
 
 - [Layout](<https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1>)
 
 <p align="center">
-    <a href="#Sobre">Sobre</a> •
-    <a href="#Recursos">Recursos</a> •
-    <a href="#Auto">Autor</a>
+     •
+    <a href="https://jhonlight.github.io/mario/">Click Aqui </a> •
+    
 </p>
 
 ## Sobre
@@ -50,12 +46,12 @@ Um site com tela de etapas
 
 ## Autor
 
-<a href="#">
- <img style="border-radius: 50%;" src="https://github.com/JhonLight.png" width="100px;" alt="desenvolvedor web jhony luz"/>
-<h2>Jhony Luz</h2>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Robert-Jose?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertjosé/)](https://www.linkedin.com/in/robertjosé/)
-[![Gmail Badge](https://img.shields.io/badge/-rjsf06@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:rjsf06@gmail.com)
+ <img style="border-radius: 50%;" src="https://github.com/JhonLight.png" width="100px;" alt="desenvolvedor web jhony luz"/>
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jhony-Luz?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhony-luz-720b73211/)](https://www.linkedin.com/in/jhony-luz-720b73211/)
+
 
 ---
 
