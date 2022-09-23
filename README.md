@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-   <a href="#"> Jogo da memória</a>
+   <a href="https://jhonlight.github.io/mario/jogo"> Jogo da memória</a>
 </h1>
 
 <h3 align="center">
@@ -15,7 +15,7 @@
 	 Status: Em desenvolvimento
 </h4>
 
-## Layout
+## Figma
 
 📚 [Layout](<https://www.figma.com/file/cgUSAEGgSCJN8hxygzUL19/Maratona-Programa-para-Evoluir-(Copy)?node-id=0%3A1>)
 
@@ -38,7 +38,7 @@ Um site com tela de capa e jogo
 - Css
   - [x] Definir fonte e classes de style
 - Javascript
-  - [x] Botões de navigação
+  - [x] Botões de navegação
   - [x] Criar cartas
   - [x] Mistura Cartas
   - [x] Identificar click
@@ -53,7 +53,7 @@ Um site com tela de capa e jogo
 
  <img style="border-radius: 50%;" src="https://github.com/JhonLight.png" width="100px;" alt="desenvolvedor web jhony luz"/>
 
-[![Linkedin Badge](https://img.shields.io/badge/-JhonyLuz?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhony-luz-720b73211/)](https://www.linkedin.com/in/jhony-luz-720b73211/)
+[![Linkedin Badge](https://img.shields.io/badge/-Jhony-Luz?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhony-luz-720b73211/)](https://www.linkedin.com/in/jhony-luz-720b73211/)
 
 ---
 

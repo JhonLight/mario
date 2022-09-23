@@ -50,7 +50,7 @@
  .logo {
    flex-direction: column;
    align-items: center;
-   gap:  8.83vh;
+   gap: 8.83vh;
  }
 
  .logo__mario {
@@ -84,7 +84,7 @@
    border-radius: 10px;
    box-sizing: border-box;
    width: 54.34vh;
-   height: 14.13;
+   height: 14.13vh;
    text-align: center;
    font-weight: 900;
    font-size: 8.69vh;
@@ -93,30 +93,30 @@
    border: none;
    margin-top: 24%;
    font-family: negrito;
-   cursor: pointer; 
-  }
+   cursor: pointer;
+ }
 
 
  /* Termina o css da pag. index */
 
  .placar {
-  background-image: url(../img/Pipe.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 112.5vh;
-  Width: 100%;
-  height: 22%;
-  font-family: regular, sans-serif;
-  font-weight: 700;
-  color: #F4F4F4;
-  font-size: 5.43vh;
-  line-height: 7.47vh;
-  align-items: center;
-  margin-top: 1.76vh;
+   background-image: url(../img/Pipe.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 112.5vh;
+   Width: 100%;
+   height: 22%;
+   font-family: regular, sans-serif;
+   font-weight: 700;
+   color: #F4F4F4;
+   font-size: 5.43vh;
+   line-height: 7.47vh;
+   align-items: center;
+   margin-top: 1.76vh;
  }
 
- .placar__texto{
-  width: 54%;
+ .placar__texto {
+   width: 54%;
  }
 
  .placar__btn {
@@ -136,18 +136,105 @@
    cursor: pointer;
  }
 
- .cartas{
-  display: grid;
-  grid-template-columns: 44.83vh 44.83vh 44.83vh 44.83vh;
-  width: 80%;
-  grid-row-gap: 8.69vh;
-  margin: 4.89vh auto;
-  justify-content: center;
+ .cartas {
+   display: grid;
+   grid-template-columns: 44.83vh 44.83vh 44.83vh 44.83vh;
+   width: 80%;
+   grid-row-gap: 8.69vh;
+   margin: 4.89vh auto;
+   justify-content: center;
  }
 
- main img{
-  height: 27.17vh;
-  width: 27.17vh;
+ main img {
+   height: 27.17vh;
+   width: 27.17vh;
  }
 
- 
+ @media screen and (max-width: 1084px) {
+
+   .logo {
+     gap: 7.83vh;
+   }
+
+   .logo__nome {
+     font-size: 4.3vh;
+   }
+
+   .logo__funcao {
+     font-size: 1.8vh;
+   }
+ }
+
+ @media screen and (max-width: 984px) {
+   body {
+     height: 100vh;
+   }
+
+   .fundo__branco {
+     padding: 4.1vh;
+   }
+
+   .logo {
+     gap: 7.3vh;
+     width: 50%;
+   }
+
+   .logo__mario {
+     width: 70%;
+     height: 45%;
+   }
+
+   .logo__nome {
+     font-size: 2.9vh;
+   }
+
+   .logo__funcao {
+     font-size: 1.3vh;
+   }
+
+   .info {
+     width: 50%;
+     text-align: center;
+   }
+
+   .logo__texto {
+     font-size: 3vh;
+     line-height: 3.9vh;
+   }
+
+   .logo__btn {
+     width: 100%;
+     height: 10.13vh;
+     font-size: 6.69vh;
+     line-height: 9.82vh;
+     margin-top: 23%;
+   }
+ }
+
+ @media screen and (max-width: 912px) {
+   .logo__mario {
+     width: 100%;
+     height: 38%;
+   }
+
+   .logo__nome {
+     font-size: 2vh;
+   }
+
+   .logo__funcao {
+     font-size: 0.93vh;
+   }
+
+   .logo__texto {
+     font-size: 2vh;
+     line-height: 2.9vh;
+   }
+
+   .logo__btn {
+     width: 99%;
+     height: 8.13vh;
+     font-size: 4.69vh;
+     line-height: 7.82vh;
+     margin-top: 38%;
+   }
+ }
