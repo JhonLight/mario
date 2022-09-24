@@ -238,3 +238,41 @@
      margin-top: 38%;
    }
  }
+
+ @media screen and (max-width: 415px) {
+   .fundo__branco {
+     padding: 1.1vh;
+     width: 90%;
+   }
+
+   .logo {
+     gap: 5vh;
+     width: 53%;
+   }
+
+   .logo__mario {
+     width: 100%;
+     height: 45%;
+   }
+
+   .logo__nome {
+     font-size: 1.5vh;
+   }
+
+   .logo__funcao {
+     font-size: 0.65vh;
+   }
+
+   .logo__texto {
+     font-size: 1.55vh;
+     line-height: 1.9vh;
+   }
+
+   .logo__btn {
+     width: 96%;
+     height: 6.13vh;
+     font-size: 3vh;
+     line-height: 6vh;
+     margin-top: 42%;
+   }
+ }
