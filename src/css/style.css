@@ -23,6 +23,10 @@
    height: 98vh;
  }
 
+ :root {
+   --tam-grid: 44.83vh;
+ }
+
  body {
    background-image: url(../img/bg.png);
    background-repeat: no-repeat;
