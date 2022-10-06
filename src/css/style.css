@@ -43,6 +43,8 @@
    justify-content: space-around;
  }
 
+ /* Termina estilos padrões */
+
 
  .fundo__branco {
    width: 80%;
@@ -100,59 +102,7 @@
    cursor: pointer;
  }
 
-
- /* Termina o css da pag. index */
-
- .placar {
-   background-image: url(../img/Pipe.png);
-   background-repeat: no-repeat;
-   background-position: left;
-   background-size: 112.5vh;
-   Width: 100%;
-   height: 22%;
-   font-family: regular, sans-serif;
-   font-weight: 700;
-   color: #F4F4F4;
-   font-size: 5.43vh;
-   line-height: 7.47vh;
-   align-items: center;
-   margin-top: 1.76vh;
- }
-
- .placar__texto {
-   width: 54%;
- }
-
- .placar__btn {
-   background: #E52521;
-   border: 3px solid #F4F4F4;
-   border-radius: 10px;
-   box-sizing: border-box;
-   width: 27.17vh;
-   height: 7vh;
-   font-family: regular;
-   font-weight: 400;
-   font-size: 4.89vh;
-   line-height: 6.65vh;
-   text-align: center;
-   color: #FFFFFF;
-   margin-left: 36vh;
-   cursor: pointer;
- }
-
- .cartas {
-   display: grid;
-   grid-template-columns: 44.83vh 44.83vh 44.83vh 44.83vh;
-   width: 80%;
-   grid-row-gap: 8.69vh;
-   margin: 4.89vh auto;
-   justify-content: center;
- }
-
- main img {
-   height: 27.17vh;
-   width: 27.17vh;
- }
+ /* Começa o responsivo do index */
 
  @media screen and (max-width: 1084px) {
 
@@ -278,5 +228,119 @@
      font-size: 3vh;
      line-height: 6vh;
      margin-top: 42%;
+   }
+ }
+
+
+ /* Termina o css da pag. index */
+
+ .placar {
+   background-image: url(../img/Pipe.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 112.5vh;
+   Width: 100%;
+   height: 22%;
+   font-family: regular, sans-serif;
+   font-weight: 700;
+   color: #F4F4F4;
+   font-size: 5.43vh;
+   line-height: 7.47vh;
+   align-items: center;
+   margin-top: 1.76vh;
+ }
+
+ .placar__texto {
+   width: 54%;
+ }
+
+ .placar__btn {
+   background: #E52521;
+   border: 3px solid #F4F4F4;
+   border-radius: 10px;
+   box-sizing: border-box;
+   width: 27.17vh;
+   height: 7vh;
+   font-family: regular;
+   font-weight: 400;
+   font-size: 4.89vh;
+   line-height: 6.65vh;
+   text-align: center;
+   color: #FFFFFF;
+   margin-left: 36vh;
+   cursor: pointer;
+ }
+
+ .cartas {
+   display: grid;
+   grid-template-columns: var(--tam-grid) var(--tam-grid) var(--tam-grid) var(--tam-grid);
+   width: 80%;
+   grid-row-gap: 8.69vh;
+   margin: 4.89vh auto;
+   justify-content: center;
+ }
+
+ main img {
+   height: 27.17vh;
+   width: 27.17vh;
+ }
+
+ /* Começa o responsivo do jogo */
+
+ @media screen and (max-width: 912px) {
+   .placar {
+     background-position: -34vh;
+     background-size: 71.5vh;
+     height: 16%;
+     font-size: 2.43vh;
+     justify-content: space-around;
+   }
+
+   .flex__around {
+     justify-content: left;
+   }
+
+   .placar__texto {
+     width: 60%;
+     margin-left: -3.22vh;
+   }
+
+   .placar__texto--Round {
+     margin-right: 1.47vh;
+   }
+
+   .placar__btn {
+     width: 16.17vh;
+     height: 6vh;
+     font-size: 2.89vh;
+     line-height: 5.65vh;
+     margin-left: -14vh;
+   }
+
+   .cartas {
+     grid-template-columns: 35.83vh 216px;
+     grid-row-gap: 3.69vh;
+     margin: 2.89vh auto;
+   }
+
+   main img {
+     height: 16.17vh;
+     width: 16.17vh;
+   }
+ }
+
+ @media screen and (max-width: 820px) {
+   .placar__texto {
+     margin-left: -9.22vh;
+   }
+
+   .placar__btn {
+     margin-left: -19vh;
+   }
+ }
+
+ @media screen and (max-width: 768px) {
+   .placar__btn {
+     margin-left: -31vh;
    }
  }
