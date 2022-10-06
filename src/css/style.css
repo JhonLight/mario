@@ -288,6 +288,10 @@
  /* Começa o responsivo do jogo */
 
  @media screen and (max-width: 912px) {
+   body {
+     height: 98vh;
+   }
+
    .placar {
      background-position: -34vh;
      background-size: 71.5vh;
@@ -342,5 +346,63 @@
  @media screen and (max-width: 768px) {
    .placar__btn {
      margin-left: -31vh;
+   }
+ }
+
+ @media screen and (max-width: 540) {
+   .placar__texto {
+     margin-left: -4.22vh;
+   }
+
+   .placar__btn {
+     margin-left: -11vh;
+   }
+
+   .cartas {
+     grid-template-columns: 43.83vh 115px;
+   }
+ }
+
+ @media screen and (max-width: 415px) {
+   .placar {
+     background-size: 64.5vh;
+     font-size: 2vh;
+   }
+
+   .placar__texto {
+     margin-left: -0.22vh;
+   }
+
+   .placar__btn {
+     width: 12vh;
+     height: 5.2vh;
+     font-size: 2vh;
+     line-height: 4.4vh;
+     margin-left: 1vh;
+   }
+
+   .cartas {
+     grid-template-columns: 28.83vh 115px;
+     margin: 7.89vh auto;
+   }
+
+   main img {
+     height: 13.17vh;
+     width: 13.17vh;
+   }
+ }
+
+ @media screen and (max-width: 280px) {
+   .placar {
+     background-size: 60.5vh;
+     font-size: 1.7vh;
+   }
+
+   .placar__btn {
+     margin-left: -2vh;
+   }
+
+   .cartas {
+     grid-template-columns: 21.83vh 85px;
    }
  }
