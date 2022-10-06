@@ -45,7 +45,8 @@ Um site com tela de capa e jogo
   - [x] Validar as combinações
   - [x] Adicionar pontos
 - Design responsivo
-  - [x] Para todas as telas
+  - [x] Capa
+  - [ ] Jogo
 
 ---
 
