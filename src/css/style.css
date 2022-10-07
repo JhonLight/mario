@@ -166,6 +166,10 @@
  }
 
  @media screen and (max-width: 912px) {
+   body {
+     height: 100vh;
+   }
+
    .logo__mario {
      width: 100%;
      height: 38%;
@@ -288,7 +292,7 @@
  /* Começa o responsivo do jogo */
 
  @media screen and (max-width: 912px) {
-   body {
+   .body {
      height: 98vh;
    }
 
