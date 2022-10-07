@@ -46,7 +46,7 @@ Um site com tela de capa e jogo
   - [x] Adicionar pontos
 - Design responsivo
   - [x] Capa
-  - [ ] Jogo
+  - [x] Jogo
 
 ---
 
