@@ -44,6 +44,7 @@ Um site com tela de capa e jogo
   - [x] Identificar click
   - [x] Validar as combinações
   - [x] Adicionar pontos
+  - [ ] Bloqueio de triplo click
 - Design responsivo
   - [x] Capa
   - [x] Jogo
